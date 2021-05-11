@@ -26,15 +26,15 @@ The baseline experiment trains the model in the conventional way.
 
 * To train the FedProto on MNIST with n=3, k=100 under statistical heterogeneous setting:
 ```
-python federated_main.py --mode task_heter --dataset mnist --num_classes 10 --num_users 20 --ways 3 --shots 100 --stdev 2 --rounds 100 --train_shots_max 110 --mu 1
+python federated_main.py --mode task_heter --dataset mnist --num_classes 10 --num_users 20 --ways 3 --shots 100 --stdev 2 --rounds 100 --train_shots_max 110 --ld 1
 ```
 * To train the FedProto on FEMNIST with n=4, k=100 under both statistical and model heterogeneous setting:
 ```
-python federated_main.py --mode model_heter --dataset femnist --num_classes 62 --num_users 20 --ways 4 --shots 100 --stdev 2 --rounds 120 --train_shots_max 110 --mu 1
+python federated_main.py --mode model_heter --dataset femnist --num_classes 62 --num_users 20 --ways 4 --shots 100 --stdev 2 --rounds 120 --train_shots_max 110 --ld 1
 ```
 * To train the FedProto on CIFAR10 with n=5, k=100 under statistical heterogeneous setting:
 ```
-python federated_main.py --mode task_heter --dataset cifar10 --num_classes 10 --num_users 20 --ways 5 --shots 100 --stdev 2 --rounds 110 --train_shots_max 110 --mu 0.1
+python federated_main.py --mode task_heter --dataset cifar10 --num_classes 10 --num_users 20 --ways 5 --shots 100 --stdev 2 --rounds 110 --train_shots_max 110 --ld 0.1
 ```
 
 
