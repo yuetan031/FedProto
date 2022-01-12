@@ -1,4 +1,4 @@
-# FedProto: Federated Prototype Learning over Heterogeneous Devices
+# FedProto: Federated Prototype Learning across Heterogeneous Clients
 
 Implementation of the vanilla federated learning paper : [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629).
 
@@ -65,3 +65,13 @@ The default values for various paramters parsed to the experiment are given in `
 * ```--train_ep:``` Number of local training epochs in each user. Default is 1.
 
 
+## Citation
+If you find this project helpful, please consider to cite the following paper:
+```
+@inproceedings{tan2021fedproto,
+  title={FedProto: Federated Prototype Learning across Heterogeneous Clients},
+  author={Tan, Yue and Long, Guodong and Liu, Lu and Zhou, Tianyi and Lu, Qinghua and Jiang, Jing and Zhang, Chengqi},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2022}
+}
+```
