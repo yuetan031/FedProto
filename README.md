@@ -1,11 +1,6 @@
 # FedProto: Federated Prototype Learning across Heterogeneous Clients
 
-Implementation of the vanilla federated learning paper : [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629).
-
-
-Experiments are produced on MNIST, Fashion MNIST and CIFAR10 (both IID and non-IID). In case of non-IID, the data amongst the users can be split equally or unequally.
-
-Since the purpose of these experiments are to illustrate the effectiveness of the federated learning paradigm, only simple models such as MLP and CNN are used.
+Implementation of the paper accepted by AAAI 2022 : [FedProto: Federated Prototype Learning across Heterogeneous Clients](https://arxiv.org/abs/2105.00243).
 
 ## Requirments
 This code requires the following:
