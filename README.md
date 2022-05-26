@@ -29,7 +29,7 @@ python federated_main.py --mode model_heter --dataset femnist --num_classes 62 -
 ```
 * To train the FedProto on CIFAR10 with n=5, k=100 under statistical heterogeneous setting:
 ```
-python federated_main.py --mode task_heter --dataset cifar10 --num_classes 10 --num_users 20 --ways 5 --shots 100 --stdev 2 --rounds 110 --train_shots_max 110 --ld 0.1
+python federated_main.py --mode task_heter --dataset cifar10 --num_classes 10 --num_users 20 --ways 5 --shots 100 --stdev 2 --rounds 110 --train_shots_max 110 --ld 0.1 --local_bs 32
 ```
 
 
